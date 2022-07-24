@@ -42,8 +42,7 @@ private MediaPlayer mediaPlayer;
                     mediaPlayer.seekTo(progress);
                 }
             }
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
+            @Override public void onStartTrackingTouch(SeekBar seekBar) {
 
             }
 
